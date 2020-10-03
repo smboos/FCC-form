@@ -1,0 +1,82 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./master.css">
+    <title>chaaa</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Welcome To The Time Travel Portal</h1>
+      <p id="description">When do you want to go? Fill in the form bellow and travel to any time you want with our world class time travel service.</p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <div>
+          <label id="name-label" for="name">What should we call you?</label>
+        </div>
+        <div>
+          <input type="text" id="name" class="box-input" name="name" placeholder="John Smith" required>
+        </div>
+        <div>
+          <label id="email-label" for="email">What is your email?</label>
+        </div>
+        <div>
+          <input type="email" required id="email" class="box-input" name="email" placeholder="apple@fruit.com">
+        </div>
+        <div>
+          <label id="number-label" for="number">How many people are you taking with you?</label>
+        </div>
+        <div>
+          <input type="number" required id="number" class="box-input" name="number" min="1" max="5" placeholder="text here">
+        </div>
+        <div>
+          <label for="dropdown">How fancy would you like to travel?</label>
+        </div>
+        <div>
+          <select name="dropdown" id="dropdown" class="box-input">
+            <option value="e">Economy</option>
+            <option value="saab">First Class</option>
+          </select>
+        </div>
+        <div>
+          <label for="destination">Where are you going?</label>
+        </div>
+        <div>
+          <input type="radio" id="destination" name="future" value="Past">
+          <label for="past" class="select">The Past</label>
+        </div>
+        <div>
+          <input type="radio" id="destination" name="future" value="future">
+          <label for="future" class="select">The Future</label>
+        </div>
+        <br>
+        <div>
+          <label for="addservice" class="formm">Please select any additional services desired to include in your package: </label>
+        <div>
+        <div>
+          <input type="checkbox" id="service" name="addservice1" value="two-way">
+          <label for="vehicle1" class="select"> Two way Ticket</label>
+        </div>
+        <div>
+          <input type="checkbox" id="service" name="addservice2" value="food">
+          <label for="vehicle1" class="select"> Food Included</label>
+        </div>
+        <div>
+          <input type="checkbox" id="service" name="addservice3" value="transport">
+          <label for="vehicle1" id="whatever" class="select"> Rent a car (or a horse) (or a personal spaceship) for local transportation</label>
+        </div>
+        <br>
+        <div>
+          <label for="comments">Please tell us about any medical conditions that that we need to be aware about while you you are using our time travel technology:</label>
+        </div>
+        <div>
+          <textarea id="comments" name="comments" class="comment-box"></textarea>
+        </div>
+        <div>
+          <input type="submit" id="submit" class="submit-button" value="Submit">
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
